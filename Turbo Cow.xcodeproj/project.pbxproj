@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20B3CB6429538C8A0069315C /* Turbo_CowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B3CB6329538C8A0069315C /* Turbo_CowApp.swift */; };
+		20B3CB6629538C8A0069315C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B3CB6529538C8A0069315C /* ContentView.swift */; };
+		20B3CB6829538C8B0069315C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20B3CB6729538C8B0069315C /* Assets.xcassets */; };
+		20B3CB6B29538C8B0069315C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20B3CB6A29538C8B0069315C /* Preview Assets.xcassets */; };
+		20B3CB7629538C8B0069315C /* Turbo_CowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B3CB7529538C8B0069315C /* Turbo_CowTests.swift */; };
+		20B3CB8029538C8B0069315C /* Turbo_CowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B3CB7F29538C8B0069315C /* Turbo_CowUITests.swift */; };
+		20B3CB8229538C8B0069315C /* Turbo_CowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B3CB8129538C8B0069315C /* Turbo_CowUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20B3CB7229538C8B0069315C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20B3CB5829538C8A0069315C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20B3CB5F29538C8A0069315C;
+			remoteInfo = "Turbo Cow";
+		};
+		20B3CB7C29538C8B0069315C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20B3CB5829538C8A0069315C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20B3CB5F29538C8A0069315C;
+			remoteInfo = "Turbo Cow";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20B3CB6029538C8A0069315C /* Turbo Cow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Turbo Cow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B3CB6329538C8A0069315C /* Turbo_CowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turbo_CowApp.swift; sourceTree = "<group>"; };
+		20B3CB6529538C8A0069315C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		20B3CB6729538C8B0069315C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20B3CB6A29538C8B0069315C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		20B3CB6C29538C8B0069315C /* Turbo_Cow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Turbo_Cow.entitlements; sourceTree = "<group>"; };
+		20B3CB7129538C8B0069315C /* Turbo CowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Turbo CowTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B3CB7529538C8B0069315C /* Turbo_CowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turbo_CowTests.swift; sourceTree = "<group>"; };
+		20B3CB7B29538C8B0069315C /* Turbo CowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Turbo CowUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B3CB7F29538C8B0069315C /* Turbo_CowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turbo_CowUITests.swift; sourceTree = "<group>"; };
+		20B3CB8129538C8B0069315C /* Turbo_CowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turbo_CowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20B3CB5D29538C8A0069315C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B3CB6E29538C8B0069315C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B3CB7829538C8B0069315C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20B3CB5729538C8A0069315C = {
+			isa = PBXGroup;
+			children = (
+				20B3CB6229538C8A0069315C /* Turbo Cow */,
+				20B3CB7429538C8B0069315C /* Turbo CowTests */,
+				20B3CB7E29538C8B0069315C /* Turbo CowUITests */,
+				20B3CB6129538C8A0069315C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20B3CB6129538C8A0069315C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20B3CB6029538C8A0069315C /* Turbo Cow.app */,
+				20B3CB7129538C8B0069315C /* Turbo CowTests.xctest */,
+				20B3CB7B29538C8B0069315C /* Turbo CowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20B3CB6229538C8A0069315C /* Turbo Cow */ = {
+			isa = PBXGroup;
+			children = (
+				20B3CB6329538C8A0069315C /* Turbo_CowApp.swift */,
+				20B3CB6529538C8A0069315C /* ContentView.swift */,
+				20B3CB6729538C8B0069315C /* Assets.xcassets */,
+				20B3CB6C29538C8B0069315C /* Turbo_Cow.entitlements */,
+				20B3CB6929538C8B0069315C /* Preview Content */,
+			);
+			path = "Turbo Cow";
+			sourceTree = "<group>";
+		};
+		20B3CB6929538C8B0069315C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				20B3CB6A29538C8B0069315C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		20B3CB7429538C8B0069315C /* Turbo CowTests */ = {
+			isa = PBXGroup;
+			children = (
+				20B3CB7529538C8B0069315C /* Turbo_CowTests.swift */,
+			);
+			path = "Turbo CowTests";
+			sourceTree = "<group>";
+		};
+		20B3CB7E29538C8B0069315C /* Turbo CowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20B3CB7F29538C8B0069315C /* Turbo_CowUITests.swift */,
+				20B3CB8129538C8B0069315C /* Turbo_CowUITestsLaunchTests.swift */,
+			);
+			path = "Turbo CowUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20B3CB5F29538C8A0069315C /* Turbo Cow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20B3CB8529538C8B0069315C /* Build configuration list for PBXNativeTarget "Turbo Cow" */;
+			buildPhases = (
+				20B3CB5C29538C8A0069315C /* Sources */,
+				20B3CB5D29538C8A0069315C /* Frameworks */,
+				20B3CB5E29538C8A0069315C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Turbo Cow";
+			productName = "Turbo Cow";
+			productReference = 20B3CB6029538C8A0069315C /* Turbo Cow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20B3CB7029538C8B0069315C /* Turbo CowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20B3CB8829538C8B0069315C /* Build configuration list for PBXNativeTarget "Turbo CowTests" */;
+			buildPhases = (
+				20B3CB6D29538C8B0069315C /* Sources */,
+				20B3CB6E29538C8B0069315C /* Frameworks */,
+				20B3CB6F29538C8B0069315C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20B3CB7329538C8B0069315C /* PBXTargetDependency */,
+			);
+			name = "Turbo CowTests";
+			productName = "Turbo CowTests";
+			productReference = 20B3CB7129538C8B0069315C /* Turbo CowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20B3CB7A29538C8B0069315C /* Turbo CowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20B3CB8B29538C8B0069315C /* Build configuration list for PBXNativeTarget "Turbo CowUITests" */;
+			buildPhases = (
+				20B3CB7729538C8B0069315C /* Sources */,
+				20B3CB7829538C8B0069315C /* Frameworks */,
+				20B3CB7929538C8B0069315C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20B3CB7D29538C8B0069315C /* PBXTargetDependency */,
+			);
+			name = "Turbo CowUITests";
+			productName = "Turbo CowUITests";
+			productReference = 20B3CB7B29538C8B0069315C /* Turbo CowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20B3CB5829538C8A0069315C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					20B3CB5F29538C8A0069315C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					20B3CB7029538C8B0069315C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 20B3CB5F29538C8A0069315C;
+					};
+					20B3CB7A29538C8B0069315C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 20B3CB5F29538C8A0069315C;
+					};
+				};
+			};
+			buildConfigurationList = 20B3CB5B29538C8A0069315C /* Build configuration list for PBXProject "Turbo Cow" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20B3CB5729538C8A0069315C;
+			productRefGroup = 20B3CB6129538C8A0069315C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20B3CB5F29538C8A0069315C /* Turbo Cow */,
+				20B3CB7029538C8B0069315C /* Turbo CowTests */,
+				20B3CB7A29538C8B0069315C /* Turbo CowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20B3CB5E29538C8A0069315C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B3CB6B29538C8B0069315C /* Preview Assets.xcassets in Resources */,
+				20B3CB6829538C8B0069315C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B3CB6F29538C8B0069315C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B3CB7929538C8B0069315C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20B3CB5C29538C8A0069315C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B3CB6629538C8A0069315C /* ContentView.swift in Sources */,
+				20B3CB6429538C8A0069315C /* Turbo_CowApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B3CB6D29538C8B0069315C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B3CB7629538C8B0069315C /* Turbo_CowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B3CB7729538C8B0069315C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B3CB8029538C8B0069315C /* Turbo_CowUITests.swift in Sources */,
+				20B3CB8229538C8B0069315C /* Turbo_CowUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20B3CB7329538C8B0069315C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20B3CB5F29538C8A0069315C /* Turbo Cow */;
+			targetProxy = 20B3CB7229538C8B0069315C /* PBXContainerItemProxy */;
+		};
+		20B3CB7D29538C8B0069315C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20B3CB5F29538C8A0069315C /* Turbo Cow */;
+			targetProxy = 20B3CB7C29538C8B0069315C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20B3CB8329538C8B0069315C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20B3CB8429538C8B0069315C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		20B3CB8629538C8B0069315C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Turbo Cow/Turbo_Cow.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Turbo Cow/Preview Content\"";
+				DEVELOPMENT_TEAM = V8YU8RYB9T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.julpitt.Turbo-Cow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		20B3CB8729538C8B0069315C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Turbo Cow/Turbo_Cow.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Turbo Cow/Preview Content\"";
+				DEVELOPMENT_TEAM = V8YU8RYB9T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.julpitt.Turbo-Cow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		20B3CB8929538C8B0069315C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V8YU8RYB9T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.julpitt.Turbo-CowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Turbo Cow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Turbo Cow";
+			};
+			name = Debug;
+		};
+		20B3CB8A29538C8B0069315C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V8YU8RYB9T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.julpitt.Turbo-CowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Turbo Cow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Turbo Cow";
+			};
+			name = Release;
+		};
+		20B3CB8C29538C8B0069315C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V8YU8RYB9T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.julpitt.Turbo-CowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Turbo Cow";
+			};
+			name = Debug;
+		};
+		20B3CB8D29538C8B0069315C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V8YU8RYB9T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.julpitt.Turbo-CowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Turbo Cow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20B3CB5B29538C8A0069315C /* Build configuration list for PBXProject "Turbo Cow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20B3CB8329538C8B0069315C /* Debug */,
+				20B3CB8429538C8B0069315C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20B3CB8529538C8B0069315C /* Build configuration list for PBXNativeTarget "Turbo Cow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20B3CB8629538C8B0069315C /* Debug */,
+				20B3CB8729538C8B0069315C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20B3CB8829538C8B0069315C /* Build configuration list for PBXNativeTarget "Turbo CowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20B3CB8929538C8B0069315C /* Debug */,
+				20B3CB8A29538C8B0069315C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20B3CB8B29538C8B0069315C /* Build configuration list for PBXNativeTarget "Turbo CowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20B3CB8C29538C8B0069315C /* Debug */,
+				20B3CB8D29538C8B0069315C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20B3CB5829538C8A0069315C /* Project object */;
+}
