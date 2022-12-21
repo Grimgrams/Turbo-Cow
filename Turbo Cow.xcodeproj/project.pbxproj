@@ -14,6 +14,7 @@
 		20B3CB7629538C8B0069315C /* Turbo_CowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B3CB7529538C8B0069315C /* Turbo_CowTests.swift */; };
 		20B3CB8029538C8B0069315C /* Turbo_CowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B3CB7F29538C8B0069315C /* Turbo_CowUITests.swift */; };
 		20B3CB8229538C8B0069315C /* Turbo_CowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B3CB8129538C8B0069315C /* Turbo_CowUITestsLaunchTests.swift */; };
+		20B3CB9229538CA70069315C /* Connection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 20B3CB9029538CA70069315C /* Connection.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,9 @@
 		20B3CB7B29538C8B0069315C /* Turbo CowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Turbo CowUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20B3CB7F29538C8B0069315C /* Turbo_CowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turbo_CowUITests.swift; sourceTree = "<group>"; };
 		20B3CB8129538C8B0069315C /* Turbo_CowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turbo_CowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		20B3CB8F29538CA60069315C /* Turbo Cow-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Turbo Cow-Bridging-Header.h"; sourceTree = "<group>"; };
+		20B3CB9029538CA70069315C /* Connection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Connection.cpp; sourceTree = "<group>"; };
+		20B3CB9129538CA70069315C /* Connection.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Connection.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,7 @@
 		20B3CB6229538C8A0069315C /* Turbo Cow */ = {
 			isa = PBXGroup;
 			children = (
+				20B3CB8E29538C920069315C /* Database */,
 				20B3CB6329538C8A0069315C /* Turbo_CowApp.swift */,
 				20B3CB6529538C8A0069315C /* ContentView.swift */,
 				20B3CB6729538C8B0069315C /* Assets.xcassets */,
@@ -127,6 +132,16 @@
 				20B3CB8129538C8B0069315C /* Turbo_CowUITestsLaunchTests.swift */,
 			);
 			path = "Turbo CowUITests";
+			sourceTree = "<group>";
+		};
+		20B3CB8E29538C920069315C /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				20B3CB9029538CA70069315C /* Connection.cpp */,
+				20B3CB9129538CA70069315C /* Connection.hpp */,
+				20B3CB8F29538CA60069315C /* Turbo Cow-Bridging-Header.h */,
+			);
+			path = Database;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +212,7 @@
 				TargetAttributes = {
 					20B3CB5F29538C8A0069315C = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 					20B3CB7029538C8B0069315C = {
 						CreatedOnToolsVersion = 14.2;
@@ -259,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20B3CB9229538CA70069315C /* Connection.cpp in Sources */,
 				20B3CB6629538C8A0069315C /* ContentView.swift in Sources */,
 				20B3CB6429538C8A0069315C /* Turbo_CowApp.swift in Sources */,
 			);
@@ -415,6 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Turbo Cow/Turbo_Cow.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -433,6 +451,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.julpitt.Turbo-Cow";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Turbo Cow/Database/Turbo Cow-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -442,6 +462,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Turbo Cow/Turbo_Cow.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -460,6 +481,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.julpitt.Turbo-Cow";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Turbo Cow/Database/Turbo Cow-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
