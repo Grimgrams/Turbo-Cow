@@ -9,5 +9,8 @@
 #define Connection_hpp
 
 #include <stdio.h>
-//#include <cassandra.h>
+#include "cassandra.h"
+
+
+
 #endif /* Connection_hpp */

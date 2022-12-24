@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		201642E02953A4B80040E188 /* cassandra.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 201642DE2953A4B80040E188 /* cassandra.h */; };
+		201642E12953A4B80040E188 /* dse.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 201642DF2953A4B80040E188 /* dse.h */; };
+		201642F42957891B0040E188 /* ConnectionWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 201642F32957891B0040E188 /* ConnectionWrapper.mm */; };
 		20B3CB6429538C8A0069315C /* Turbo_CowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B3CB6329538C8A0069315C /* Turbo_CowApp.swift */; };
 		20B3CB6629538C8A0069315C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B3CB6529538C8A0069315C /* ContentView.swift */; };
 		20B3CB6829538C8B0069315C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20B3CB6729538C8B0069315C /* Assets.xcassets */; };
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		201642DE2953A4B80040E188 /* cassandra.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = cassandra.h; path = "../cpp-driver/include/cassandra.h"; sourceTree = "<group>"; };
+		201642DF2953A4B80040E188 /* dse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = dse.h; path = "../cpp-driver/include/dse.h"; sourceTree = "<group>"; };
+		201642F32957891B0040E188 /* ConnectionWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ConnectionWrapper.mm; sourceTree = "<group>"; };
+		201642F52957892F0040E188 /* ConnetctionWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnetctionWrapper.h; sourceTree = "<group>"; };
 		20B3CB6029538C8A0069315C /* Turbo Cow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Turbo Cow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20B3CB6329538C8A0069315C /* Turbo_CowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turbo_CowApp.swift; sourceTree = "<group>"; };
 		20B3CB6529538C8A0069315C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				201642E02953A4B80040E188 /* cassandra.h in Frameworks */,
+				201642E12953A4B80040E188 /* dse.h in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +85,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		201642DD2953A4B80040E188 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				201642DE2953A4B80040E188 /* cassandra.h */,
+				201642DF2953A4B80040E188 /* dse.h */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		20B3CB5729538C8A0069315C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +101,7 @@
 				20B3CB7429538C8B0069315C /* Turbo CowTests */,
 				20B3CB7E29538C8B0069315C /* Turbo CowUITests */,
 				20B3CB6129538C8A0069315C /* Products */,
+				201642DD2953A4B80040E188 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +159,8 @@
 				20B3CB9029538CA70069315C /* Connection.cpp */,
 				20B3CB9129538CA70069315C /* Connection.hpp */,
 				20B3CB8F29538CA60069315C /* Turbo Cow-Bridging-Header.h */,
+				201642F32957891B0040E188 /* ConnectionWrapper.mm */,
+				201642F52957892F0040E188 /* ConnetctionWrapper.h */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -278,6 +299,7 @@
 				20B3CB9229538CA70069315C /* Connection.cpp in Sources */,
 				20B3CB6629538C8A0069315C /* ContentView.swift in Sources */,
 				20B3CB6429538C8A0069315C /* Turbo_CowApp.swift in Sources */,
+				201642F42957891B0040E188 /* ConnectionWrapper.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
